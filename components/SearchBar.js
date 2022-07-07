@@ -10,6 +10,10 @@ export default function SearchBar() {
         <View style={{ marginTop: 15, flexDirection: "row" }} >
             <GooglePlacesAutocomplete
                 placeholder="Search"
+                textInputProps={{
+                    placeholderTextColor: 'black',
+                    returnKeyType: "search"
+                  }}
                 styles={{
                     textInput: {
                         backgroundColor: "#eee",
