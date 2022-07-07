@@ -11,8 +11,7 @@ export default function SearchBar() {
             <GooglePlacesAutocomplete
                 placeholder="Search"
                 textInputProps={{
-                    placeholderTextColor: 'black',
-                    returnKeyType: "search"
+                    placeholderTextColor: 'black'
                   }}
                 styles={{
                     textInput: {
