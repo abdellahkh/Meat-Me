@@ -1,15 +1,8 @@
 import { View, Text } from "react-native";
+import HeaderTabs from "./components/HeaderTabs";
+import Home from "./screens/Home";
 
 export default function App() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Universal React with Expo</Text>
-    </View>
-  );
+  return <Home />
+  return <HeaderTabs />
 }
